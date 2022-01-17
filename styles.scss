@@ -1,0 +1,33 @@
+// Global stylesheet
+
+
+//HELPERS
+@import "./sass/1-helpers/functions";
+
+//MIXINS 
+@import "./sass/2-mixins/mixins";
+
+//COMPONENTS
+@import "./sass/3-components/components";
+
+//BASICS
+@import "./sass/4-basics/base";
+@import "./sass/4-basics/buttons";
+@import "./sass/4-basics/global";
+@import "./sass/4-basics/menuBtn";
+@import "./sass/4-basics/typography";
+
+//LAYOUT
+@import "./sass/5-layout/header";
+@import "./sass/5-layout/maincontent";
+@import "./sass/5-layout/navigation";
+
+
+//FONTS
+@import "./sass/6-fonts/fonts";
+
+//VARIABLES
+@import "./sass/7-variables/break-points";
+@import "./sass/7-variables/colors";
+@import "./sass/7-variables/font-size";
+@import "./sass/7-variables/variables";
